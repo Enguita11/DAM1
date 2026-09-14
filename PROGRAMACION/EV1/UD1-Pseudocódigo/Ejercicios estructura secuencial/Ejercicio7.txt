@@ -1,0 +1,13 @@
+Proceso CalcularHoraYMinutos
+	Definir minutos, horas, restominutos como entero;	
+
+	Escribir "Dime la cantidad de minutos: ";
+	Leer minutos;
+
+	horas <-- trunc(minutos/60);
+	restominutos <-- minutos%60;
+
+	Escribir "Son ", horas, " y ", restominutos;
+FinProceso
+
+	
