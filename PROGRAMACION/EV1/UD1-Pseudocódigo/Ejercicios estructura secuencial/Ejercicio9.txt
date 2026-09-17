@@ -1,0 +1,10 @@
+Proceso Descuento15
+	Definir totalCompra, descuento, compraDescuento como real;
+	descuento= 0.15;
+	Escribir "Cuanto es el total de la compra";
+	Leer totalCompra;
+	
+	compraDescuento <- totalCompra * descuento;
+	
+	Escribir "El total de la compra es: ", totalCompra - compraDescuento;
+FinProceso 
