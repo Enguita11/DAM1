@@ -1,9 +1,0 @@
-Proceso MayorONo
-	Definir num1, num2 como enteros;
-
-	Escribir "Numero 1: ";
-	Leer num1;
-	Escribir "Numero 2: ";
-	Leer num2;
-
-	Si num1 > num2
