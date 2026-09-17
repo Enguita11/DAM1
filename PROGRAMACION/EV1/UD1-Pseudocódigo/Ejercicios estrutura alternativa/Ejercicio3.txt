@@ -1,0 +1,14 @@
+Proceso ParOImpar
+	Definir num como entero;
+
+	Escribir "Numero: ";
+	Leer num;
+
+	Si num % 2 = 0 Entonces
+		Escribir num, " es par.";
+	SiNo Si num % 2 <> 0 Entonces
+		Escribir num, " es impar";
+	SiNo 
+		Escribir num, " no es valido";
+	FinSi
+FinProceso
