@@ -1,0 +1,12 @@
+Proceso comprobarMayuscula
+	definir letra como cadena;
+	
+	Escribir "Dime la letra";
+	leer letra;
+	
+	Si letra >= "A" & letra <= "Z" Entonces
+		Escribir letra, "es mayuscula";
+	Sino
+		Escribir letra, "no es mayuscula";
+	FinSi
+FinProceso

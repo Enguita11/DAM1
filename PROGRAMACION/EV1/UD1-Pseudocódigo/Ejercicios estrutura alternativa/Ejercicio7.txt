@@ -1,0 +1,16 @@
+Proceso CalcularPotencia
+	Definir base, exponente como enteros;
+	
+	Escribir "Base: ";
+	Leer base;
+	Escribir "Exponente:";
+	Leer exponente;
+
+	Si exponente > 0 Entonces
+		Escribir base^exponente;
+	SiNo Si exponente = 0 Entonces
+		Escribir "1";
+	SiNo  
+		Escribir "1/", base^(-exponente);
+	FinSi
+FinProceso

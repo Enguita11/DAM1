@@ -1,0 +1,15 @@
+Proceso División
+	Definir num1, num2 como enteros;
+
+	Escribir "Numero 1: ";
+	Leer num1;
+	Escribir "Numero 2. ";
+	Leer num2;
+
+	Si num2 != 0 Entonces
+		Escribir num1 / num2;
+	Sino
+		Escribir "El segundo numero no puede ser 0";
+	FinSi
+FinProceso
+	

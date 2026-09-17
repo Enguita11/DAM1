@@ -1,0 +1,20 @@
+Proceso NotaEdadSexo
+	Definir nota, edad como entero;
+	Definir sexo como cadena;
+	
+	Escribir "Nota: ";
+	Leer nota;
+	Escribir "Edad: ";
+	Leer edad;
+	Escribir "Sexo(M/F): ";
+	Leer sexo;
+
+	Si (nota >= 5) & (edad >= 18) & (sexo = "F") Entonces
+		Escribir "ACEPTADA";
+	SiNo Si (nota >= 5) & (edad >= 18) & (sexo = "M") Entonces
+		Escribir "POSIBLE";
+	SiNo 
+		Escribir "NO ACEPTADA";
+	FinSi
+FinProceso
+	
