@@ -1,0 +1,18 @@
+Proceso ParesEntreDosNumeros
+	Definir num, num1, num2 como enteros;
+
+	Escribir "Numero inicial: ";
+	Leer num1;
+	Escribir "Numero final: ";
+	Leer num2;
+
+	Si num1 < num2 Entonces
+		Para num<-num1 Hasta num2 Con Paso 1 Hacer
+			Si num % 2 = 0 Entonces
+				Escribir Sin saltar num1, " ";
+			FinSi
+		FinPara
+	Sino
+		Escribir "El numero inicial tiene que ser mas pequeño";
+	FinSi
+FinProceso			

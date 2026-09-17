@@ -1,0 +1,10 @@
+Proceso CalcularGrados
+	Definir gradosFarenheit como real;
+	
+	Escribir "Cuantos grados son? ";
+	Leer gradosfarenheit;
+
+	
+	Escribir "Son: " ,(gradosfarenheit-32)*5/9, "grados Celsius";
+FinProceso
+

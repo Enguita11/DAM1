@@ -1,0 +1,17 @@
+Proceso NombreYContraseña
+	Definir nombre, contraseña como cadena;
+
+	Escribir "Usuario: ";
+	Leer usuario;
+
+	Escribir "Contraseña";
+	Leer contraseña;
+
+	Si nombre == "pepe" & contraseña == "asdasd" Entonces
+		Escribir "Has entrado al sistema";
+	Sino
+		Escribir "Usuario o contraseña no válidos";
+	FinSi
+	
+	
+FinProceso

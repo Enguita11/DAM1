@@ -1,2 +1,24 @@
 Proceso SueldoMasComisiones
-	Definir sueldoBase, 
+	Definir sueldoBase, comisión, venta1, venta2, venta3, totalVentas como reales;
+
+	Escribir "Cual es su sueldo base: "
+	Leer sueldoBase;
+
+	Escribir "Venta 1: "
+	Leer venta1;
+	Escribir "Venta 2: "
+	Leer venta2;
+	Escribir "Venta 3: "
+	Leer venta3;
+	
+	totalVentas <-- venta1+venta2+venta3;
+	comision <-- (venta1+venta2+venta3)*0.10;
+
+	Escribir "El total del sueldo de este mes es de: ", sueldoBase + comision;
+FinProceso
+
+	
+
+	
+	
+	

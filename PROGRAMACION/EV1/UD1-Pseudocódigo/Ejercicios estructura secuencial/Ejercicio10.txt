@@ -1,0 +1,21 @@
+Proceso Calificaciones
+	Definir par1, par2, par3, examfinal, trafinal, promediopar como real;
+
+	Escribir "Parcial 1: ";
+	Leer par1;
+	Escribir "Parcial 2: ";
+	Leer par2;
+	Escribir "Parcial 3: ";
+	Leer par3;
+	
+	Escribir "Examen final: ";
+	Leer examfinal;
+
+	Escribir "Trabajo final: ";
+	Leer trafinal;
+
+	promediopar <- (par1+par2+par3)/3;
+
+	Escribir "Total: ", (promediopar*0.55)+(examfinal*0.3)+(trafinal*0.15);
+
+FinProceso

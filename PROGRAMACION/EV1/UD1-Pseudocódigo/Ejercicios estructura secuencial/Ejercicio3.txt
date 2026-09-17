@@ -1,0 +1,12 @@
+Proceso CalcularHipotenusa
+	Definir cat1 y cat2 como enteros;
+
+	Escribir "De cuanto es el primer cateto? ";
+	Leer cat1;
+
+	Escribir "De cuanto es el segundo cateto? ";
+	Leer cat2;
+
+	Escribir "La hipotenusa de ", cat1, " y ", cat2, " es de ", raíz(cat1^2 + cat2^2)
+FinProceso
+	
