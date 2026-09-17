@@ -11,6 +11,6 @@ Proceso MayorONo
 	SiNo Si num1 < num2 Entonces
 		Escribir num2," es mayor que", num1;
 	Sino
-		Escribir "Son iguales"
+		Escribir "Son iguales";
 	FinSi
 FinProceso

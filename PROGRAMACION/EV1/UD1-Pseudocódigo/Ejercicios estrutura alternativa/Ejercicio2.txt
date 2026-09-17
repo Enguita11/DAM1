@@ -1,0 +1,15 @@
+Proceso PositivoNegativo0
+	Definir num como entero;
+
+	Escribir "Numero: ";
+	Leer num;
+
+	Si num > 0 Entonces
+		Escribir num, " es positivo.";
+	SiNo Si num < 0 entonces
+		Escribir num, " es negativo.";
+	SiNo
+		Escribir num, "es cero";
+	FinSi
+FinProceso
+
