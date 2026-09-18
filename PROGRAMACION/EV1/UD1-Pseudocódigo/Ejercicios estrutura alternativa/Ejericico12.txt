@@ -1,0 +1,14 @@
+Proceso AñoBisiestoONo
+	Definir año como entero;
+	
+	Escribir "Año: ";
+	Leer año;
+	
+	Si año % 4 == 0 Entonces
+		Escribir año, " es bisiesto.";
+	Sino Si año % 100 == 0 Y año % 400 == 0 Entonces
+		Escribir año, " es bisiesto.";
+	Sino Si año % 100 == 0 Y año % 400 != 0 Entonces
+		Escribir año, " no es bisiesto";
+	FinSi
+FinProceso

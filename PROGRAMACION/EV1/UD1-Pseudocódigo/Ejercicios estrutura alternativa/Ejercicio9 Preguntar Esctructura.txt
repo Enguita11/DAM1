@@ -1,0 +1,33 @@
+Proceso Orden3Numeros
+	Definir num1,num2,num3 como enteros;
+	
+	Escribir "Numero1: ";
+	Leer num1;
+	Escribir "Numero2: ";
+	Leer num2;
+	Escribir "Numero3: ";
+	Leer num3;
+
+	Si num1 >= num2 Y num1 >= num3 Entonces
+		Escribir num1, " > ", num2, " > ", num3;
+	SiNo si num3 >= num2 Entonces
+		Escribir num1, " > ", num3, " > ", num2;
+	FinSi
+	
+	Si num2 >= num1 Y num2 >= num3 Entonces
+		Escribir num2, " > ", num1, " > ", num3;
+	Sino Si num3 >= num1 Entonces
+		Escribir num2, " > ", num3, " > ", num1;
+	FinSi
+	
+	Si num3 >= num1 Y num3 >= num2 Entonces
+		Escribir num3, " > ", num1, " > ", num2;
+	Sino Si num2 >= num1 Entonces
+		Escribir num3, " > ", num2, " > ", num1;
+	FinSi
+FinProceso
+
+
+
+	
+		

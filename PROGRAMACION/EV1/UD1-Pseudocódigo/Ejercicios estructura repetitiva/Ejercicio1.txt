@@ -1,0 +1,13 @@
+Proceso Factorial
+	Definir num, i, factorial como entero;
+	
+	Escribir "Numero factorial: ";
+	Leer num;
+
+	factorial <- num;
+	
+	Para i <- num-1 Hasta 1 Con paso -1 Hacer
+		factorial <- factorial * i;
+	FinPara
+	Escribir factorial;
+FinProceso
