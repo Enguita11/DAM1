@@ -1,0 +1,22 @@
+Proceso SumaYMedia
+	Definir num, i, acum como entero;
+	acum <- 0;
+	i<- 0;
+	Repetir 
+		Escribir "Dime el numero";
+		Leer num;
+		Escribir "Para parar escribe 0";
+		Si num != 0 Entonces
+			acum <- acum + num;
+			i= i+1;
+		FinSi
+		
+		
+	Hasta que num == 0
+	Si i > 0 Entonces
+		Escribir "La suma es: ", acum;
+		Escribir "La media es: ", acum / i;
+	Sino
+		Escribir "No has introducido ningún numero valido"
+	FinSi
+FinProceso

@@ -1,0 +1,15 @@
+Proceso VocalONoVocal
+	Definir car como cadena;
+		
+	Repetir
+		Escribir "Escribe espacio para salir";
+		Escribir "Carácter: ";
+		Leer car;
+		
+	Si Minusculas(car) == "a" O Minusculas(car) == "e" O Minusculas(car) == "i" O Minusculas(car) == "o" O Minusculas(car) == "u" Entonces
+		Escribir "VOCAL";
+	Sino 
+		Escribir "NO VOCAL";
+	FinSi
+	Hasta que car = " ";
+FinProceso

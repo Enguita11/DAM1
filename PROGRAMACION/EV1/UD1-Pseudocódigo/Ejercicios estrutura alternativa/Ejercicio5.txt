@@ -15,3 +15,22 @@ Proceso NombreYContraseña
 	
 	
 FinProceso
+
+Proceso UsuarioYContraseña
+	Definir usuario, contraseña como cadena;
+		
+	Escribir "Usuario: ";
+	Leer usuario;
+	Escribir "Contraseña: ";
+	Leer contraseña;
+
+	Mientras usuario != "pepe" || contraseña != "asdasd" Hacer
+		Escribir "Datos erroneos";
+
+		Escribir "Usuario: ";
+		Leer usuario;
+		Escribir "Contraseña: ";
+		Leer contraseña;
+	FinMientras
+	Escribir "Has entrado al sistema";
+FinProceso

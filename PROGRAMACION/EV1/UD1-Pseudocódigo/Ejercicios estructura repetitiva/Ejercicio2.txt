@@ -1,0 +1,22 @@
+Proceso AdivinarNumero
+	Definir num, i como entero;
+	
+	num <-- aleatorio(1,100) 
+	i<-- 0;
+	repetir
+		Escribir "Te quedan ", (10-i), " intentos";
+		Escribir "Di un numero";
+		leer intentonum;
+		i=i+1
+		Si intentonum == num Entonces
+			Escribir "Lo has adivinado es: ", num;
+		Sino Si intentonum > num Entonces
+			Escribir "El numero es menor al tuyo";
+		Sino Si intentonum < num Entonces
+			Escribir "El numero es mayor al tuyo";
+		FinSi
+	hasta que intentonum == num || i == 10
+	Si intentonum != num Entonces
+		Escribir "El número secreto era el: ", num;
+	FinSi
+FinProceso
