@@ -1,0 +1,18 @@
+Proceso vectorordeninverso
+	Definir vector, vectorinverso como cadena;
+	Definir i, i2, tam_vector como entero;
+	Dimensión vector[5];
+	Dimensión vectorinverso[5];
+	tam_vector<- 5;
+
+
+	Para i <- 0 hasta tam_vector-1 con paso 1 hacer 
+		Escribir "Palabra ", i, " : ";
+		Leer vector[i];
+	FinPara
+	i2 <- 0;
+	Para i <- tam_vector-1 hasta 0 con paso -1 hacer
+		vectorinverso[i] <- vector[i2];
+		i2 <- i2 +1;
+	FinPara
+FinProceso

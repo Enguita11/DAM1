@@ -1,0 +1,16 @@
+Proceso Potencia
+	Definir base, basefinal como real;
+	Definir exponente, i como entero;
+	basefinal <- 1; 	
+	Escribir "Dime la base: ";
+	Leer base;
+	Escribir "Dime el exponente";
+	Leer exponente;
+
+	Para i <- 1 hasta exponente con paso 1 hacer 
+		basefinal <- basefinal * base
+	FinPara
+	
+	Escribir "El resultado es: ", basefinal;
+	
+finProceso

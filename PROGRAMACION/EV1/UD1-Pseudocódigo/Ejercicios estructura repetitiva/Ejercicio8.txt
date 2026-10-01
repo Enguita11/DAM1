@@ -1,0 +1,36 @@
+Proceso intervalo
+	Definir liminf, limsup, num, i, suma  como enteros;
+	Definir numeroigual como lógico;
+
+	suma <- 0;
+	i<-0;
+	numeroigual<- falso;
+	Repetir 
+		Escribir "Dime el limite INFERIOR del intervalo: ";
+		Leer liminf;
+		Escribir "Dime el limite SUPERIOR del intervalo: ";
+		Leer limsup;
+		Hasta que liminf < limsup
+	Repetir 
+		Escribir "Numero (0/para salir): ";
+		Leer num;
+		Si num != 0 Entonces
+			Si num > liminf && num < limsup Entonces
+				suma <- suma + num
+			SiNo
+			Si num < liminf || num > limsup Entonces
+				i <- i + 1;
+			SiNo 
+				numeroigual <- Verdadero;
+			FinSi
+		FinSi
+		FinSi
+	Hasta que num == 0
+	Escribir "La suma de los numeros de dentro del intervalo son: ", suma; 
+	Escribir "Fuera del intervalo hay: ", i, " numeros";
+	Si numeroigual Entonces
+		Escribir "Se ha introducido algun numero igual a los limites";
+	SiNo 	
+		Escribir "No se ha introducido ningun numero igual a los limites";
+	Finsi
+FinProceso

@@ -1,0 +1,10 @@
+Proceso TablaDeUnNumero
+	Definir num, i como entero;
+
+	Escribir "Numero: ";
+	Leer num;
+
+	Para i<-0 hasta 10 con paso 1 hacer 
+		Escribir num, " x ", i, " = ", num*i;
+	FinPara
+FinProceso
