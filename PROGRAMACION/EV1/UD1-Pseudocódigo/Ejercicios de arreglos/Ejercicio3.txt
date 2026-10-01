@@ -1,0 +1,7 @@
+Proceso vectorMediaMayorMenor
+	Definir vector, i como entero;
+	Dimensión vector[5];
+
+	Para i <- 0 hasta longitud(vector)-1 con paso 1 hacer
+		Escribir "Dime la nota", i, " ,
+	
