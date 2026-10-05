@@ -1,7 +1,38 @@
 Proceso vectorMediaMayorMenor
-	Definir vector, i como entero;
+	Definir vector, i, media, notaAlta, notaBaja, suma como entero;
 	Dimensión vector[5];
 
 	Para i <- 0 hasta longitud(vector)-1 con paso 1 hacer
-		Escribir "Dime la nota", i, " ,
+		Repetir 
+
+			Escribir "Dime la nota (0/10) ", i, " : ";
+			Leer num;
+
+		Hasta que num > 0 && num < 10
+		vector[i] = num;
+	FinPara
+
+	notaAlta = vector[0];
+	notaBaja = vector[0];
+	suma = 0;
 	
+	Para i <- 0 hasta longitud(vector)-1 con paso 1 hacer
+		suma = suma + vector[i]
+
+		Si notaAlta < vector[i]
+			notaAlta = vector[i];
+		FinSi
+		Si notaBaja > vector[i]
+			notaBaja = vector[i];
+		FinSi
+
+		Escribir vector[i];
+	FinPara
+
+	Escribir suma/longitud(vector);
+	Escribir notaAlta;
+	Escribir notaBaja;
+FinProceso
+
+
+		

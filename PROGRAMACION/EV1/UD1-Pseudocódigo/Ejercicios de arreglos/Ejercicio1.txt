@@ -1,0 +1,24 @@
+Proceso vectornumeros
+	Definir vector_numeros, i, vectorcuadrado, vectorcubo como entero;
+	Dimensión vector_numeros[10];
+	Dimensión vectorcuadrado[10];
+	Dimensión vectorcubo[10];
+
+	Para i <- 0 hasta longitud(vector_numeros)-1 con paso 1 Hacer 
+		vector_numeros[i] <- aleatorio(1,10);
+	FinPara
+	para i <- 0 hasta longitud(vector_numeros)-1 con paso 1 Hacer
+		vectorcuadrado[i] <- vector_numeros[i]^2;
+	FinPara
+	para i <- 0 hasta longitud(vector_numeros)-1 con paso 1 Hacer
+		vectorcubo[i] <- vector_numeros[i]^3;
+	FinPara
+	para i <- 0 hasta longitud(vector_numeros)-1 con paso 1 hacer
+		Escribir vector_numeros[i];	
+		Escribir vectorcuadrado[i];
+		Escribir vectorcubo[i];
+	FinPara
+FinProceso
+	
+	
+	

@@ -1,4 +1,4 @@
-Parcial: Existen mas tipos (Leon, cerdo, gallina...)
-Total: No existen mas tipos (Macho o hembra)
-Exclusiva: No puede ser de dos entidades a la vez (o es cerdo o gallina las dos no)
-solapada: Si que puede ser de dos entidades a la vez (es leon y mamifero)
+Parcial: Existen mas tipos (Leon, cerdo, gallina...) (no circulo)
+Total: No existen mas tipos (Macho o hembra) (circulo)
+Exclusiva: No puede ser de dos entidades a la vez (o es cerdo o gallina las dos no) /(Raya)
+solapada: Si que puede ser de dos entidades a la vez (es leon y mamifero) (sin raya)
