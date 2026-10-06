@@ -1,0 +1,17 @@
+Funcion espaciado <- ConvertirEspaciado(frase)
+	Definir espaciado como cadena;
+	Definir i como entero;
+	
+	Para i <- 0 hasta Longitud(frase)-1 Hacer
+		espaciado <- Concatenar(espaciado, subcadena(frase,i,i));
+		espaciado <- Concatenar(espaciado, " ");
+	FinPara
+FinFuncion
+
+Proceso espaciarFrase
+	Definir cadena como cadena;
+	Escribir "Dime tu frase pequeño";
+	Leer cadena;
+	
+	Escribir ConvertirEspaciado(cadena);
+FinProceso
