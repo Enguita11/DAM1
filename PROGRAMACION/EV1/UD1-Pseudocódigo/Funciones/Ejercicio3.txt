@@ -1,0 +1,25 @@
+
+	
+Funcion media <- calcularMedia(max, min)
+	Definir media como real;
+	media <- (max + min) / 2;
+		
+		
+FinFuncion
+
+Proceso temperaturaMaxMin
+	Definir tempMax, tempMin como real;
+	Definir i, dias como entero;
+	Escribir "Dime los días: ";
+	Leer días;
+
+	Para i <- 0 hasta días-1 Hacer
+		Escribir "Temperatura maxima?";
+		Leer tempMax;
+		Escribir "Temperatura minima?";
+		Leer tempMin;
+		Escribir "La media es: ", calcularMedia(tempMax, tempMin);
+	FinPara
+FinProceso
+
+	
