@@ -4,7 +4,7 @@ import java.util.SortedMap;
 public class Ejercicio1 {
     static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Numero: ");
+        System.out.println("Te diré el signo de tu numero: ");
         double num = s.nextDouble();
         int resultado = (int) signo(num);
         System.out.println(resultado);
