@@ -14,6 +14,6 @@ public class Ejercicio11 {
             tieneGaraje = true;
         }
 
-        if (precio )
+
     }
 }
