@@ -12,21 +12,28 @@ public class Ejercicio5 {
         }
 
         int num;
-        boolean encontrado = false;
+
         do {
             System.out.println("Busqueda de un numero");
             System.out.println("Dime un numero entero: ");
             num = sc.nextInt();
-            sc.nextLine();
+            if (num < 0){
+                return;
+            }
+            boolean encontrado = false;
             for ( int i : numAl){
                 if (i == num){
                     encontrado = true;
                     break;
                 }
             }
+            if (encontrado){
+                System.out.println(num + " Se encuentra en la lista");
+            } else {
+                System.out.println(num + " No se encuentra en la lista");
+            }
 
         } while (num >= 0);
-        System.out.println(encontrado);
 
     }
 }
